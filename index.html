@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/png" href="img/logo/logo-tacos-toto.png">   
+  <meta charset="UTF-8">
+  <title>Tacos Toto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Tacos Toto en Siquinalá: tacos al pastor, gringas, tortas, sincronizadas y más. Horario de 10am a 9pm, servicio a domicilio por PedidosYa.">
+  <meta name="keywords" content="Tacos Toto, tacos al pastor, Siquinalá, taquería, gringas, tortas, comida rápida, PedidosYa">
+  <meta name="author" content="Tacos Toto">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tacos Toto | Sabor auténtico en Siquinalá">
+  <meta property="og:description" content="Disfruta tacos al pastor, gringas, tortas y más en Tacos Toto. Servicio a domicilio por PedidosYa.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:url" content="https://tacostoto.com/">
+  <meta property="og:image" content="https://tacostoto.com/img/logo/tacos-toto-portada.png">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Tacos Toto",
+    "image": "https://tacostoto.com/img/logo/tacos-toto-portada.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Siquinalá",
+      "addressRegion": "Escuintla",
+      "addressCountry": "GT"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 14.306443172666569,
+      "longitude": -90.96459744560535
+    },
+    "servesCuisine": "Mexicana",
+    "url": "https://tacostoto.com/",
+    "openingHours": "Mo-Su 10:00-21:00"
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SPLASH SCREEN -->
+  <div id="splash">
+    <img src="img/logo/tacos-toto-portada.png" alt="Tacos Toto portada">
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-left">
+      <img src="img/logo/logo-tacos-toto.png" alt="Logo Tacos Toto" class="logo-header">
+    </div>
+
+    <div class="header-center">
+      <div class="buscador">
+        <input type="text" id="buscador-input" placeholder="Buscar platillo...">
+        <span class="icono-buscar">🔍</span>
+        <ul id="buscador-resultados"></ul>
+      </div>
+    </div>
+
+    <div class="header-middle">
+    <a href="https://www.pedidosya.com.gt/restaurantes/santa-lucia-cotzumalguapa/tacos-toto-siquinala-0b5c9b3c-fed5-4efd-8518-b4156999103d-menu" 
+       target="_blank" 
+       class="btn-orden">
+       ORDENA AQUÍ
+    </a>
+   </div>
+ 
+<nav class="header-right">
+  <a href="#menu">MENÚ</a>
+  <a href="#nosotros">NOSOTROS</a>
+  <a href="#contactanos">CONTACTANOS</a>
+</nav>
+</header>
+
+  <!-- HERO / CARRUSEL -->
+  <section class="slide-hero">
+    <div class="slide-contenedor">
+
+      <div class="slide activo fade-in"><img src="img/carrusel/tacos-al-pastor.png" alt="Tacos al pastor"></div>
+      <div class="slide"><img src="img/carrusel/flautas.png" alt="Flautas"></div>
+      <div class="slide"><img src="img/carrusel/gringas.png" alt="Gringas"></div>
+      <div class="slide"><img src="img/carrusel/torta.png" alt="Torta"></div>
+      <div class="slide"><img src="img/carrusel/super-torta.png" alt="Super torta"></div>
+      <div class="slide"><img src="img/carrusel/hamburguesas.png" alt="Hamburguesas"></div>
+   
+      <!-- Flechas -->
+      <span class="flecha izquierda" id="flecha-izq">&#10094;</span>
+      <span class="flecha derecha" id="flecha-der">&#10095;</span>
+
+    </div>
+
+    <!-- Puntos -->
+    <div class="puntos"></div>
+  </section>
+ 
+  <!-- MENÚ -->
+  <main>
+    <section id="menu" class="seccion-menu">
+      <h2 class="titulo-principal">Nuestro Menú</h2>
+      <div class="productos">
+
+        <div class="producto" data-key="TACOS AL PASTOR">
+          <img src="img/menu/tacos-al-pastor.png" class="producto-img" alt="Tacos al pastor">
+          <h3>TACOS AL PASTOR</h3>
+          <span class="precio">Q 25.00</span>
+        </div>
+
+        <div class="producto" data-key="FLAUTAS">
+          <img src="img/menu/flautas.png" class="producto-img" alt="Flautas">
+          <h3>FLAUTAS</h3>
+          <span class="precio">Q 35.00</span>
+        </div>
+
+        <div class="producto" data-key="TACOS DE RES">
+          <img src="img/menu/tacos-de-res.png" class="producto-img" alt="Tacos de res">
+          <h3>TACOS DE RES</h3>
+          <span class="precio">Q 30.00</span>
+        </div>
+
+        <div class="producto" data-key="TAQUIGRINGAS">
+          <img src="img/menu/taquigringas.png" class="producto-img" alt="Taquigringas">
+          <h3>TAQUIGRINGAS</h3>
+          <span class="precio">Q 33.00</span>
+        </div>
+
+        <div class="producto" data-key="GRINGAS">
+          <img src="img/menu/gringas.png" class="producto-img" alt="Gringas">
+          <h3>GRINGAS</h3>
+          <span class="precio">Q 25.00</span>
+        </div>
+
+        <div class="producto" data-key="GRINGAS DE RES">
+          <img src="img/menu/gringas-de-res.png" class="producto-img" alt="Gringas de res">
+          <h3>GRINGAS DE RES</h3>
+          <span class="precio">Q 33.00</span>
+        </div>
+
+        <div class="producto" data-key="HAWAIANAS">
+          <img src="img/menu/hawaianas.png" class="producto-img" alt="Hawaianas">
+          <h3>HAWAIANAS</h3>
+          <span class="precio">Q 25.00</span>
+        </div>
+
+        <div class="producto" data-key="SUPER GRINGA">
+          <img src="img/menu/super-gringa.png" class="producto-img" alt="Super gringa">
+          <h3>SUPER GRINGA</h3>
+          <span class="precio">Q 25.00</span>
+        </div>
+
+        <div class="producto" data-key="SUPER HAWAIANA">
+          <img src="img/menu/super-hawaiana.png" class="producto-img" alt="Super hawaiana">
+          <h3>SUPER HAWAIANA</h3>
+          <span class="precio">Q 25.00</span>
+        </div>
+
+        <div class="producto" data-key="TORTA">
+          <img src="img/menu/torta.png" class="producto-img" alt="Torta">
+          <h3>TORTA</h3>
+          <span class="precio">Q 22.00</span>
+        </div>
+
+        <div class="producto" data-key="SUPER TORTA">
+          <img src="img/menu/super-torta.png" class="producto-img" alt="Super torta">
+          <h3>SUPER TORTA</h3>
+          <span class="precio">Q 26.00</span>
+        </div>
+
+        <div class="producto" data-key="SINCRONIZADAS">
+          <img src="img/menu/sincronizadas.png" class="producto-img" alt="Sincronizadas">
+          <h3>SINCRONIZADAS</h3>
+          <span class="precio">Q 25.00</span>
+        </div>
+
+        <div class="producto" data-key="QUESADILLAS">
+          <img src="img/menu/quesadillas.png" class="producto-img" alt="Quesadillas">
+          <h3>QUESADILLAS</h3>
+          <span class="precio">Q 33.00</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+      <h2>Acerca de Nosotros</h2>
+   <p>
+En el corazón del barrio Chi-Wonon, en San Cristóbal Totonicapán, Tacos Toto nació en el año 2002, 
+como un sueño familiar impulsado por el aroma a leña y un comal artesanal en el patio de nuestra casa. 
+ </p>
+<p>
+De la mano de doña Lila y Nico, lo que comenzó como un anhelo humilde ha evolucionado paso a paso, 
+desde un puesto a orilla de calle hasta convertirnos hoy en un restaurante formal. 
+Nuestra esencia permanece intacta gracias a sus recetas originales, las cuales han sido custodiadas de generación en generación, 
+para preservar el sabor que nos ha caracterizado desde nuestros inicios.
+ </p>
+<p>
+Más que un negocio, somos un punto de encuentro donde la tradición y la calidez se unen para crear momentos inolvidables, 
+ideales para compartir con la familia. Hoy, gracias a la preferencia de nuestros clientes, seguimos creciendo y cocinando con la misma pasión y dedicación de siempre. 
+</p>
+<p>
+En Tacos Toto nos sentimos orgullosos de ser una familia que sirve con amor a familias como la tuya, ofreciendo una experiencia auténtica que siempre querrás repetir.
+    </p>
+    </section>
+    
+<!-- CONTACTANOS TACOS TOTO --> 
+<section id="contactanos" class="contactanos">
+  <h2>Contactanos</h2>
+  <p class="contactanos">
+        <strong>Correo electronico:</strong> tacostoto.2026@gmail.com<br>
+        <strong>Telefono:</strong> +502 5868-3146<br>
+        <strong>Ubicacion:</strong> 8va calle 7-27 Siquinalá, Escuintla (Tacos Toto).<br>
+  </p> 
+ 
+<section id="contactanos" class="horario">
+  <h2>Informacion de servicio</h2>
+  <p class="horario">
+        <strong>Horario de atención:</strong> 10:00 AM – 9:00 PM<br>
+        <strong>Servicio a domicilio:</strong> a través de PedidosYa.
+  </p>
+  </section>
+
+<section id="contactanos" class="ubicacion">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.8287450799998!2d-90.965528!3d14.306351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858921e4f9e8f637%3A0xbd1d13340084dbb7!2sTACOS%20TOTO!5e0!3m2!1ses!2sgt!4v1700000000000!5m2!1ses!2sgt"
+    width="100%" 
+    height="350" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+  </main>
+  <!-- MODAL -->
+  <div id="modal-producto" class="modal">
+    <div class="modal-contenido">
+      <span class="cerrar" id="cerrarModal">&times;</span>
+
+      <img id="modal-img" alt="">
+      <h2 id="modal-titulo"></h2>
+      <p id="modal-descripcion"></p>
+      <span id="modal-precio" class="modal-precio"></span>
+
+      <a id="modal-boton" class="btn-pedido" target="_blank">
+        Ordenar en PedidosYa
+      </a>
+    </div>
+  </div>
+
+<!-- BOTÓN WHATSAPP (solo consultas de menú) -->
+<a href="https://wa.me/50258683146?text=¡Hola!%20Quiero%20consultar%20el%20menú%20" 
+   class="whatsapp" 
+   target="_blank" 
+   aria-label="Consultar menú por WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+  </svg>
+</a>
+<script src="script.js"></script>
+</body>
+</html>
